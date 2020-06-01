@@ -1,0 +1,18 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: Bold;
+    color: #CAA4F7;
+  }
+  h2 {color: #B2A4F7;}
+  
+  h3 {color: #A4BDF7;}
+  
+  h4 {color: #A4CAF7;}
+  
+  }
