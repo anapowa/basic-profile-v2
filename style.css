@@ -1,20 +1,43 @@
 /* CSS files add styling rules to your content */
 
 body {
+    font-size: 16px;
     font-family: helvetica, arial, sans-serif;
     margin: 2em;
     background-color: rgb(116, 85, 114);
-    text-align: center
+    text-align: left
   }
   
-  h1 {
+h1 {
     font-style: Bold;
+    font-size: 3em;
     color: #CAA4F7;
-  }
-  h2 {color: #B2A4F7;}
+    margin: 0;
+    }
+h2 {
+    color: #B2A4F7;
+    font-size: 1.5em;
+    margin: 0;
+    }
+
+.clear {clear: both;}
   
-  h3 {color: #A4BDF7;}
+h3 {color: #A4BDF7;}
   
-  h4 {color: #A4CAF7;}
-  
-  }
+h4 {color: #A4CAF7;}
+
+aside img {
+    float: left;
+    border-radius: 150px;
+    width: auto;
+}
+
+body #title {
+    float: left;
+    justify-content: left;
+    padding-left: 5%;
+}
+
+.clear {
+	clear: both;
+}
